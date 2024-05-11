@@ -1,0 +1,42 @@
+main {
+    padding-top: 60px;
+}
+#home-section {
+  color: black;
+  background-color: white;
+}
+#services-section {
+  color: #881337;
+  background-color: #fecdd3;
+}
+#references-section {
+  color: #4c0519;
+  background-color: #fecaca;
+}
+.page-section {
+  padding-top: 3.5em;
+  padding-bottom: 3.5em;
+}  
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+/* Carousel */
+#testimonials-carousel .carousel-inner {
+  height: 300px;
+  padding: 30px 70px;
+  background-color: aquamarine;
+}
+#testimonials-carousel .carousel-inner {
+  display: flex;
+  align-items: center;
+}
+/* When the screen is at least 720px wide, apply the following styles */
+@media screen and (min-width: 720px) {
+  #testimonials-carousel .carousel-inner {
+    padding: 30px 150px;
+  }
+}
