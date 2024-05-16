@@ -1,0 +1,25 @@
+body {
+  background-color: #BEBE7E;
+}
+main {
+  min-height: 100vh; /* Set the min height to the screen height */
+  display: flex;
+  /* Align vertically */
+  align-items: center;
+  /* Align horizontally */
+  justify-content: center;
+  margin: 20px;
+}
+.main-container {
+  /* Disable growing, allow shrinking, set default width to 400 */
+  flex: 0 1 400px;
+}
+/* Button */
+.submit-button {
+  background-color: #7C7C3E;
+  color: antiquewhite;
+}
+.submit-button:hover {
+  background-color: #4B4B25;
+  color:antiquewhite
+}
