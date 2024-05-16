@@ -1,25 +1,31 @@
 body {
   background-color: #BEBE7E;
 }
+
 main {
-  min-height: 100vh; /* Set the min height to the screen height */
+  /* Set the min height to the screen height (vh = viewport height) */
+  min-height: 100vh;
   display: flex;
-  /* Align vertically */
+  /* Align the inner div with the form vertically */
   align-items: center;
-  /* Align horizontally */
+  /* Align the inner div with the form horizontally */
   justify-content: center;
   margin: 20px;
 }
+
+/* main container with contact form */
 .main-container {
   /* Disable growing, allow shrinking, set default width to 400 */
   flex: 0 1 400px;
 }
+
 /* Button */
 .submit-button {
   background-color: #7C7C3E;
   color: antiquewhite;
 }
+
 .submit-button:hover {
   background-color: #4B4B25;
-  color:antiquewhite
+  color: antiquewhite
 }

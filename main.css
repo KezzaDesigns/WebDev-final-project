@@ -1,40 +1,48 @@
 main {
-    padding-top: 60px;
+  padding-top: 60px;
 }
+
 #home-section {
   color: black;
   background-color: white;
 }
+
 .logo {
   width: 100%;
   max-width: 500px;
   display: block;
   margin: 10px auto
 }
+
 /* Services section specific styles */
 #services-section {
   color: #881337;
   background-color: #fff1f2;
 }
+
 /* References section specific styles */
 #references-section {
   color: #4c0519;
   background-color: #f2c9d0;
 }
+
 .page-section {
   padding-top: 50px;
   padding-bottom: 50px;
 }
+
 /* Section header (for all sections) */
 h2 {
   text-align: center;
 }
+
 .container-sm {
   /* Make the container more narrow (for all sections) */
   max-width: 960px;
   /* Set larger padding so that it's not so close to the sides */
   padding: 0 20px;
 }
+
 #references-section .container-sm {
   /* Override padding to make it smaller for this section */
   padding: 0 10px;
@@ -47,15 +55,18 @@ h2 {
   /* Ensure text in slides doesn't get covered by controls */
   padding: 30px 70px;
 }
+
 /* Style to centere the content of the slide */
 #testimonials-carousel .carousel-inner {
   display: flex;
   align-items: center;
 }
+
 /* Make testemonials text smaller */
 #testimonials-carousel .carousel-inner blockquote {
   font-size: 18px;
 }
+
 /* When the screen is at least 720px wide, apply the following styles */
 @media screen and (min-width: 720px) {
   #testimonials-carousel .carousel-inner {
@@ -69,5 +80,5 @@ footer {
   background-color: #47484d;
   color: white;
   text-align: center;
-  padding: 10px 
+  padding: 10px
 }
